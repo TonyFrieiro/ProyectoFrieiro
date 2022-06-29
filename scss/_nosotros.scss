@@ -1,0 +1,32 @@
+.contenedorNosotros{
+    padding:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    div {
+        p{
+        margin-top: 50px;
+        padding-top: 50px;
+        margin-left: -100px;
+        font-size: 20px;
+        }
+    }
+    .packaging{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction:column;
+        div{
+            margin-top: 20px;
+            img{
+                width: 500px;
+                height: 500px;
+                border-radius: 10px;
+            }
+        }
+    }
+    .tiktokVideo{
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,16 @@
+.contenedorProductos{
+    padding:20px;
+    .productosRealizados{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        div{
+            margin-top: 20px;
+            img{
+                width: 500px;
+                height: 500px;
+                margin: 10px;
+            }
+        }
+    }
+}
