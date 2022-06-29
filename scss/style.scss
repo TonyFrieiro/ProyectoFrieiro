@@ -28,13 +28,13 @@ header{
             li{
             padding-left:30px;
             padding-right:30px;
-            }
-            li:hover{
+            &:hover{
                 padding: 0px 40px;
                 background-color: rgb(44, 42, 42);
                 color: white;
                 border-radius: 10px;
                 transition: all 0.5s ease;
+            }
             }
         }
         .card-group{
