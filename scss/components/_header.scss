@@ -1,0 +1,45 @@
+/*Header*/
+header{
+    background-color: black;
+    .logo{
+        display: inline-block;
+        img{
+            width: 80px;
+            height: 80px;
+            margin: 10px;
+        }
+        .letraLogo{
+            font-size: 25px;
+            font-family: 'Joan', serif;
+        }
+    }
+    nav{
+        #colorPiel{
+            color:$colorPrincipal;
+        }
+        #fondoPiel{
+            background-color:$colorPrincipal ;
+        }
+        .navbar-nav {
+            li{
+            padding-left:30px;
+            padding-right:30px;
+            &:hover{
+                padding: 0px 40px;
+                background-color: rgb(44, 42, 42);
+                color: white;
+                border-radius: 10px;
+                transition: all 0.5s ease;
+            }
+            }
+        }
+        .card-group{
+            justify-content: space-between;
+        }
+        .card img{
+            width: 500px;
+            height: 500px;
+        }
+    }
+}
+/*FinHeader*/

@@ -5,6 +5,13 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         div{
+            .disponible {
+                border: 5px solid #000;
+                &--noDisponible{
+                @extend .disponible;
+                border-color: red;
+                }
+            }
             margin-top: 20px;
             img{
                 width: 500px;

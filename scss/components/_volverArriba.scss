@@ -1,0 +1,15 @@
+/*Volver arriba*/
+.volverArriba {
+    a{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-size: 30px;
+    padding-left: 20px;
+    }
+}

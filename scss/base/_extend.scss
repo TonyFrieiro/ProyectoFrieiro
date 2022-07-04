@@ -1,0 +1,10 @@
+.disponible {
+    border: 4px solid #000;
+    &--noDisponible{
+    @extend .disponible;
+    border-color: red;
+    
+    }
+
+}
+

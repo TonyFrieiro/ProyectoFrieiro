@@ -1,0 +1,76 @@
+/*FOOTER*/
+footer{
+    background-color:$colorPrincipal ;
+    .footer{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-wrap: wrap;
+        background-color:$colorPrincipal; 
+        padding-top: 50px;
+        color: black;
+        font-weight: bold;
+        transition: all 0.5s ease;
+        font-size: 20px;
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .contacto {
+            div {
+                img{
+                width: 50px;
+                height: 50px;
+                }
+            }    
+        }
+        .footerProductos {
+            div {
+                a{
+                text-decoration: none;
+                color: black;
+                font-weight: bold;
+                transition: all 0.5s ease;
+                font-size: 20px;}
+            }
+        }
+    }
+    .contenedorPago{
+        font-size: 20px;
+        padding-left: 20px;
+        .mediosPago{
+            div{
+                padding: 20px;
+                margin: 10px;
+                img{
+                    width: 60px;
+                    height: 40px;
+                }
+            }
+            display: flex;
+            flex-direction:row;
+            align-items: center;
+            justify-content: center 
+        }
+        .tituloPago{
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            padding-top: 10px;
+        }
+    }
+    .boxCopyright{
+        background-color: #000;
+        color: white;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/*FinFOOTER*/
